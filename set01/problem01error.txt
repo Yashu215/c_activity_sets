@@ -1,0 +1,5 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set01
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gcc problem01.c
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> .\a.exe              
+Yashaswi Anil Rao
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> 
