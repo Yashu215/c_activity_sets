@@ -1,0 +1,7 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set01       
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gcc problem05.c
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> .\a.exe
+Enter a number: 4
+Enter a number: 5
+Enter a number: 6
+The largest of 4, 5, and 6 is 6.
