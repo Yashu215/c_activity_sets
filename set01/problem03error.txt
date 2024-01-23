@@ -3,4 +3,4 @@ PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gcc problem03.c
 PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> .\a.exe
 Enter a number:2
 Enter a number:3
-The sum of 2 and 3 is 5
+The sum of 2 and 3 is 5git 
