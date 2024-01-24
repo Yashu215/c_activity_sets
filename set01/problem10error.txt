@@ -1,0 +1,6 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set01
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gcc problem10.c
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> .\a.exe
+Enter the first string: 4
+Enter the second string: 3
+3 is greater than 4
