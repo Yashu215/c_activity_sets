@@ -1,0 +1,11 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set01
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gcc problem08.c
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> .\a.exe
+Input array size: 4
+Input the array:
+3
+6
+9
+12
+
+3+6+9+12 is 30
