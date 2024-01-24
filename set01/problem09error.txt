@@ -1,0 +1,5 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gcc problem09.c
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> .\a.exe
+Enter number: 49
+
+Square root of 49.0 is 7.0
