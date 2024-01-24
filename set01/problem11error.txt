@@ -1,0 +1,7 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set01
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gcc problem11.c
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> .\a.exe
+Enter the real and imaginary parts of the first complex number: 2 3
+Enter the real and imaginary parts of the second complex number: 4 5
+
+The sum of 2.0+3.0i and 4.0+5.0i is 6.0+8.0i 

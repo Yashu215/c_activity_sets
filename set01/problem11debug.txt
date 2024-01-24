@@ -1,0 +1,36 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set01
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gcc problem11.c -O0 -g
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.   
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".      
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>... 
+Reading symbols from C:\Users\HP\Desktop\FPC\c_activity_sets\set01\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x40146e: file problem11.c, line 18.
+(gdb) r
+Starting program: C:\Users\HP\Desktop\FPC\c_activity_sets\set01/a.exe 
+[New Thread 12816.0x23a8]
+[New Thread 12816.0x750]
+
+Breakpoint 1, main () at problem11.c:18
+18          printf("Enter the real and imaginary parts of the first complex number: ");
+(gdb) s
+Enter the real and imaginary parts of the first complex number: 19          num1 = input_complex();
+(gdb) s
+input_complex () at problem11.c:30
+30          scanf("%f %f", &num.real, &num.imaginary);
+(gdb) s
+s
+31          return num;
+(gdb) c
+Continuing.
+Enter the real and imaginary parts of the second complex number:
+The sum of 0.0+1813245437862396500000000000000000.0i and 0.0+1813245437862396500000000000000000.0i is 0.0+3626490875724793000000000000000000.0i
+[Inferior 1 (process 12816) exited normally]
+(gdb) q
