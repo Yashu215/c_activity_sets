@@ -1,0 +1,5 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set01
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gcc problem07.c
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> .\a.exe
+Enter a positive integer:3
+The sum of all natural numbers till 3 is 3     
