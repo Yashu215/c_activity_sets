@@ -1,0 +1,16 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set01
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gcc problem12.c 
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> .\a.exe
+Enter the number of arrays: 5
+Enter the complex numbers:
+12
+34
+45
+56
+67
+78
+78
+78
+7
+
+12.0+23.0i + 34.0+45.0i + 56.0+67.0i + 78.0+78.0i + 78.0+7.0i is 258.0+220.0i

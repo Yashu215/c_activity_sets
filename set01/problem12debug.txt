@@ -1,0 +1,52 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set01
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gcc problem12.c -O0 -g
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.        
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.     
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>... 
+Reading symbols from C:\Users\HP\Desktop\FPC\c_activity_sets\set01\a.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x401477: file problem12.c, line 18.
+(gdb) r
+Starting program: C:\Users\HP\Desktop\FPC\c_activity_sets\set01/a.exe 
+[New Thread 7656.0x27fc]
+[New Thread 7656.0x2514]
+
+Breakpoint 1, 0x00401477 in main () at problem12.c:18
+18      int main() {
+(gdb) s
+21          n = get_n();
+(gdb) s
+get_n () at problem12.c:31
+31          printf("Enter the number of arrays: ");
+(gdb) s
+Enter the number of arrays: 32      scanf("%d", &n);
+(gdb) c
+Continuing.
+s
+
+Program received signal SIGSEGV, Segmentation fault.
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:172
+172     ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
+(gdb) c
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:172
+172     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) q
+A debugging session is active.
+
+        Inferior 1 [process 7656] will be killed.
+
+Quit anyway? (y or n) n
+Not confirmed.
+(gdb) s
+[Inferior 1 (process 7656) exited with code 030000000375]
+(gdb) q
