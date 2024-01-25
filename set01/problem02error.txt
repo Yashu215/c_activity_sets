@@ -1,4 +1,5 @@
-PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set01
 PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> gcc problem02.c
 PS C:\Users\HP\Desktop\FPC\c_activity_sets\set01> .\a.exe
-5
+Enter a number:
+2 3
+The sum of 2 + 3 is 5
