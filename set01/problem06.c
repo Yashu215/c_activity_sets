@@ -16,7 +16,6 @@ int main() {
 
     return 0;
 }
-
 int input() {
     int num;
     printf("Enter a number: ");
