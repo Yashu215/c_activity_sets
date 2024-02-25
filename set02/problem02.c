@@ -27,9 +27,9 @@ int input_side() {
 
 int check_scalene(int a, int b, int c) {
     if (a != b && b != c && a != c)
-        return 1; // Triangle is scalene
+        return 1;
     else
-        return 0; // Triangle is not scalene
+        return 0;
 }
 
 void output(int a, int b, int c, int isscalene) {

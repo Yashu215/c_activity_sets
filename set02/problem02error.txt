@@ -1,0 +1,7 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set02
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set02> gcc problem02.c
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set02> .\a.exe        
+Enter the length of a side of the triangle: 5
+Enter the length of a side of the triangle: 6
+Enter the length of a side of the triangle: 7
+The triangle with sides 5, 6, and 7 is scalene 

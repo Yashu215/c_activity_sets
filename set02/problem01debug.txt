@@ -1,0 +1,63 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set02
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set02> gcc -g -O0 problem01.c
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set02> gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.        
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".      
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\HP\Desktop\FPC\c_activity_sets\set02\a.exe...done.
+(gdb) b 1
+Breakpoint 1 at 0x40146e: file problem01.c, line 1.
+(gdb) b 31
+Breakpoint 2 at 0x401559: file problem01.c, line 31.
+(gdb) r
+Starting program: C:\Users\HP\Desktop\FPC\c_activity_sets\set02/a.exe 
+[New Thread 11868.0x32c]
+[New Thread 11868.0x151c]
+
+Breakpoint 1, main () at problem01.c:10
+10          input(&base, &height);
+(gdb) n
+Enter the base of the triangle: 7
+Enter the height of the triangle: 7
+11          find_area(base, height, &area);
+(gdb) n
+12          output(base, height, area);
+(gdb) n
+The area of the triangle with base 7.000000 and height 7.000000 is 24.500000
+
+Breakpoint 2, output (base=7, height=7, area=24.5) at problem01.c:31
+31      }
+(gdb) n
+main () at problem01.c:14
+14          return 0;
+(gdb) n
+15      }
+(gdb) n
+0x00401288 in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+[Inferior 1 (process 11868) exited normally]
+(gdb) n
+The program is not being run.
+(gdb) n
+The program is not being run.
+(gdb) q
