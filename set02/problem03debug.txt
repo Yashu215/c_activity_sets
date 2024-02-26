@@ -1,0 +1,50 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set02
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set02> gcc -g -O0 problem03.c
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set02> gdb  a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>... 
+Reading symbols from C:\Users\HP\Desktop\FPC\c_activity_sets\set02\a.exe...done.
+(gdb) b 1
+Breakpoint 1 at 0x40146e: file problem03.c, line 1.
+(gdb) b 58
+Breakpoint 2 at 0x401532: file problem03.c, line 58.
+(gdb) r
+Starting program: C:\Users\HP\Desktop\FPC\c_activity_sets\set02/a.exe 
+[New Thread 15964.0x3e88]
+[New Thread 15964.0x7b4]
+
+Breakpoint 1, main () at problem03.c:11
+11          n = input_number();
+(gdb) n
+Enter a number: 7
+12          result = is_composite(n);
+(gdb) n
+13          output(n, result);
+(gdb) n
+7 is not a composite number.
+15          return 0;
+(gdb) n
+16      }
+(gdb) n
+0x00401288 in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
+(gdb) q
+A debugging session is active.
+
+        Inferior 1 [process 15964] will be killed.
+
+Quit anyway? (y or n) y

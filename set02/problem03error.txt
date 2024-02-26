@@ -1,0 +1,5 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets> cd set02
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set02> gcc problem03.c
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\set02> .\a.exe        
+Enter a number: 7
+7 is not a composite number.

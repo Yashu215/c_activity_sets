@@ -35,14 +35,13 @@ int is_composite(int n)
         }
     }
 
-    // A number is composite if it has more than 2 factors
     if (count_factors > 2)
     {
-        return 1; // Composite number
+        return 1; 
     }
     else
     {
-        return 0; // Not a composite number
+    return 0; 
     }
 }
 
