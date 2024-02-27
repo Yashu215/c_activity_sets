@@ -1,0 +1,58 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\c_activity_sets> cd set02
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\c_activity_sets\set02> gcc -g -O0 problem05.c
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\c_activity_sets\set02> gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".      
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\HP\Desktop\FPC\c_activity_sets\c_activity_sets\set02\a.exe...done.
+(gdb) b 1   
+Breakpoint 1 at 0x40146e: file problem05.c, line 1.
+(gdb) b 37
+Breakpoint 2 at 0x401535: file problem05.c, line 37.
+(gdb) r
+Starting program: C:\Users\HP\Desktop\FPC\c_activity_sets\c_activity_sets\set02/a.exe 
+[New Thread 10928.0x1f3c]
+[New Thread 10928.0x2178]
+
+Breakpoint 1, main () at problem05.c:8
+8           int num1 = input();
+(gdb) n
+Enter a number: 12
+9           int num2 = input();
+(gdb) n
+Enter a number: 16
+12          int gcd = find_gcd(num1, num2);
+(gdb) n
+14          output(num1, num2, gcd);
+(gdb) n
+The GCD of 12 and 16 is: 4
+
+Breakpoint 2, output (a=12, b=16, gcd=4) at problem05.c:37
+37      }
+(gdb) n
+main () at problem05.c:16
+16          return 0;
+(gdb) n
+17      }
+(gdb) n
+0x00401288 in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
+(gdb) q
+A debugging session is active.
+
+        Inferior 1 [process 10928] will be killed.
+
+Quit anyway? (y or n) y
