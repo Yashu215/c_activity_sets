@@ -1,0 +1,6 @@
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\c_activity_sets> cd set02
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\c_activity_sets\set02> gcc problem06.c
+PS C:\Users\HP\Desktop\FPC\c_activity_sets\c_activity_sets\set02> .\a.exe        
+Enter a string: hello
+Original string: hello
+Reversed string: olleh
